@@ -1,11 +1,14 @@
 {
   "name": "react-privacycenter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React plugin to embed PORT.im Privacy Center",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests yet :(\"",
+    "build": "rollup -c",
+    "start": "rollup -c -w"
   },
+  "files": ["index.d.ts"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/portim/react-privacycenter.git"
@@ -14,7 +17,7 @@
     "Privacy",
     "Center"
   ],
-  "author": "PORT.im",
+  "author": "PORT.im <hello@port.im> (https://www.port.im)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/portim/react-privacycenter/issues"
@@ -22,5 +25,17 @@
   "homepage": "https://github.com/portim/react-privacycenter#readme",
   "peerDependencies": {
     "react": ">= 16.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.8",
+    "@types/react-dom": "^17.0.5",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.50.3",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.3.2"
   }
 }

@@ -13,9 +13,15 @@ $ yarn add react-privacycenter
 
 ### Usage
 
-```js
-import {PrivacyCenter} from "react-privacycenter";
+Import the Privacy Center component
 
+```js
+import { PrivacyCenter } from "react-privacycenter";
+```
+
+Wrap something in the Privacy Center link
+
+```js
 <PrivacyCenter fallback="https://privacy.port.im" id="XXX">Privacy Center</PrivacyCenter>
 ```
 
