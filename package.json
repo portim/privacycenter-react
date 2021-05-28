@@ -1,6 +1,6 @@
 {
   "name": "react-privacycenter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React plugin to embed PORT.im Privacy Center",
   "main": "index.js",
   "scripts": {
