@@ -1,4 +1,4 @@
-# privacycenter-react
+# react-privacycenter
 React plugin to embed PORT.im Privacy Center
 
 ### Install
