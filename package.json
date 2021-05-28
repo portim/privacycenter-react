@@ -1,6 +1,6 @@
 {
   "name": "react-privacycenter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React plugin to embed PORT.im Privacy Center",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/portim/react-privacycenter#readme",
   "peerDependencies": {
-    "react": ">= 16.0"
+    "react": ">=16.0"
   },
   "devDependencies": {
     "@types/react": "^17.0.8",
